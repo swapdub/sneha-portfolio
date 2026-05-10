@@ -3,251 +3,426 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sneha Mishra's climate science and policy portfolio for recruiters, employers, and collaborators." />
-  <meta name="theme-color" content="#143d32" />
-  <meta property="og:title" content="Sneha Mishra | Climate Science and Policy" />
-  <meta property="og:description" content="A recruiter-friendly portfolio covering projects, skills, education, and climate-focused writing." />
-  <title>Sneha Mishra | Climate Science and Policy</title>
+  <meta name="theme-color" content="#1a4a30" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Sneha Mishra – Climate Science and Policy student, GIS analyst, and sustainability researcher based in Delhi, India." />
+  <meta property="og:title" content="Sneha Mishra | Climate Science and Policy" />
+  <meta property="og:description" content="Recruiter-friendly portfolio: projects, skills, education, and contact." />
+  <title>Sneha Mishra | Climate Science and Policy</title>
 </head>
 <body>
-  <div class="background">
-    <div class="orb orb-one"></div>
-    <div class="orb orb-two"></div>
-    <div class="grid-overlay"></div>
+
+<div id="progress-bar" role="progressbar" aria-label="Page scroll progress"></div>
+<nav class="navbar" id="navbar" aria-label="Primary">
+  <a href="index.html" class="nav-brand" aria-label="Sneha Mishra home">
+    <div class="nav-logo" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/>
+        <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+      </svg>
+    </div>
+    <div class="nav-brand-text">
+      <strong>Sneha Mishra</strong>
+      <small>Climate Science &amp; Policy</small>
+    </div>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#education">Education</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li>
+      <a href="SNEHA_MISHRA.pdf" class="nav-cta" aria-label="View resume PDF">
+        <i data-lucide="download"></i> Resume
+      </a>
+    </li>
+  </ul>
+  <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ── Hero ──────────────────────────────────────────────────────────────── -->
+<section class="hero" id="about">
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="badge-dot" aria-hidden="true"></span>
+      Open to climate &amp; sustainability roles
+    </div>
+    <h1 class="hero-name">Sneha<br>Mishra</h1>
+    <p class="hero-role" aria-live="polite">
+      <span class="typewriter-text"></span><span class="cursor" aria-hidden="true"></span>
+    </p>
+    <p class="hero-bio">
+      Master&rsquo;s student in Climate Science and Policy at TERI School of Advanced Studies,
+      with a background in geography, geospatial analysis, and field-based environmental research.
+      Passionate about translating climate evidence into actionable sustainability solutions.
+    </p>
+    <div class="hero-actions">
+      <a href="projects.html" class="btn btn-primary">
+        <i data-lucide="folder-open"></i> View Projects
+      </a>
+      <a href="SNEHA_MISHRA.pdf" class="btn btn-secondary">
+        <i data-lucide="download"></i> View Resume
+      </a>
+    </div>
+    <div class="hero-stats" aria-label="Key statistics">
+      <div class="hero-stat">
+        <strong data-counter data-target="100" data-suffix="+">100+</strong>
+        <span>Researchers engaged at academic conference</span>
+      </div>
+      <div class="hero-stat">
+        <strong data-counter data-target="130" data-suffix="+">130+</strong>
+        <span>Students reached at TERI climate workshop</span>
+      </div>
+      <div class="hero-stat">
+        <strong data-counter data-target="6">6</strong>
+        <span>Projects and professional simulations</span>
+      </div>
+    </div>
   </div>
 
-  <header class="topbar">
-    <a class="brand" href="#home" aria-label="Sneha Mishra home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
-          <defs>
-            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#b7e4c7" />
-              <stop offset="100%" stop-color="#ffe066" />
-            </linearGradient>
-          </defs>
-          <circle cx="32" cy="32" r="30" fill="url(#logoGradient)" opacity="0.2"></circle>
-          <path d="M18 40c11-1 17-10 18-22 5 6 8 14 6 22-2 8-9 13-18 13-6 0-10-4-6-13Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M26 37c4-1 8-4 11-8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-        </svg>
-      </span>
-      <span>
-        <strong>Sneha Mishra</strong>
-        <small>Climate Science and Policy</small>
-      </span>
+  <div class="hero-visual" aria-hidden="true">
+    <div class="globe-wrap">
+      <div class="orbit-ring-html"></div>
+      <svg class="globe-svg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated globe showing India and Delhi">
+  <defs>
+    <radialGradient id="globeBody" cx="38%" cy="32%" r="66%">
+      <stop offset="0%"   stop-color="#2e8055"/>
+      <stop offset="52%"  stop-color="#0f4022"/>
+      <stop offset="100%" stop-color="#061910"/>
+    </radialGradient>
+    <radialGradient id="globeShine" cx="30%" cy="26%" r="48%">
+      <stop offset="0%"   stop-color="rgba(255,255,255,0.13)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <radialGradient id="globeAtm" cx="50%" cy="50%" r="55%">
+      <stop offset="70%"  stop-color="rgba(58,140,95,0)"/>
+      <stop offset="100%" stop-color="rgba(58,140,95,0.38)"/>
+    </radialGradient>
+    <clipPath id="gc"><circle cx="250" cy="250" r="215"/></clipPath>
+    <filter id="ptGlow">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Atmosphere -->
+  <circle cx="250" cy="250" r="232" fill="url(#globeAtm)"/>
+  <!-- Globe body -->
+  <circle cx="250" cy="250" r="215" fill="url(#globeBody)"/>
+  <!-- Grid lines -->
+  <g clip-path="url(#gc)" opacity="0.2">
+    <!-- Latitude lines -->
+    <ellipse cx="250" cy="173" rx="198" ry="24" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <ellipse cx="250" cy="212" rx="211" ry="32" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <ellipse cx="250" cy="250" rx="215" ry="38" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <ellipse cx="250" cy="288" rx="211" ry="32" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <ellipse cx="250" cy="327" rx="198" ry="24" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <!-- Longitude meridians -->
+    <ellipse cx="250" cy="250" rx="52"  ry="215" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <ellipse cx="250" cy="250" rx="118" ry="215" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <ellipse cx="250" cy="250" rx="178" ry="215" fill="none" stroke="#74c99a" stroke-width="1"/>
+    <line x1="250" y1="35" x2="250" y2="465" stroke="#74c99a" stroke-width="1"/>
+  </g>
+  <!-- India landmass + data -->
+  <g clip-path="url(#gc)">
+      <!-- India landmass SVG -->
+      <image href="assets/indiaLow.svg" x="177" y="129" width="265" height="275"
+         preserveAspectRatio="xMidYMid meet" opacity="1" />
+    <!-- Data-flow arcs -->
+    <path d="M258,212 Q316,152 368,122" fill="none" stroke="#f4b942" stroke-width="1.8"
+          stroke-dasharray="5 5" opacity="0.58">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M246,198 Q186,158 144,132" fill="none" stroke="#74c99a" stroke-width="1.8"
+          stroke-dasharray="5 5" opacity="0.44">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <!-- Delhi marker -->
+    <g filter="url(#ptGlow)">
+      <circle cx="258" cy="206" r="4.5" fill="#f4b942" opacity="0.92">
+        <animate attributeName="r"       values="4;9;4"       dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.92;0.3;0.92" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="258" cy="206" r="2.8" fill="white" opacity="0.88"/>
+    </g>
+    <!-- Other monitoring points -->
+    <circle cx="198" cy="194" r="3" fill="#74c99a" opacity="0.72">
+      <animate attributeName="opacity" values="0.72;0.18;0.72" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="280" cy="232" r="3" fill="#74c99a" opacity="0.68">
+      <animate attributeName="opacity" values="0.68;0.18;0.68" dur="2.9s" begin="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="226" cy="263" r="2.5" fill="#74c99a" opacity="0.54">
+      <animate attributeName="opacity" values="0.54;0.12;0.54" dur="3.6s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="322" cy="168" r="3.5" fill="#74c99a" opacity="0.58">
+      <animate attributeName="opacity" values="0.58;0.14;0.58" dur="4.1s" begin="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="165" cy="228" r="2.5" fill="#74c99a" opacity="0.48">
+      <animate attributeName="opacity" values="0.48;0.1;0.48" dur="3.3s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <!-- Shine overlay -->
+  <circle cx="250" cy="250" r="215" fill="url(#globeShine)"/>
+</svg>
+      <div class="skill-float sf-tl">
+        <i data-lucide="map"></i><span>GIS Analysis</span>
+      </div>
+      <div class="skill-float sf-tr">
+        <i data-lucide="leaf"></i><span>Climate Policy</span>
+      </div>
+      <div class="skill-float sf-bl">
+        <i data-lucide="microscope"></i><span>Research Design</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Featured Projects ──────────────────────────────────────────────────── -->
+<section class="section" id="featured-projects">
+  <p class="section-label">Projects</p>
+  <h2 class="section-title">Featured work</h2>
+  <p class="section-subtitle">
+    From ESG consulting simulations to field research on flood vulnerability—
+    three representative projects from the full portfolio.
+  </p>
+  <div class="featured-grid">
+
+    <a href="projects.html" class="feat-card reveal" aria-label="TCS ESG Simulation project">
+      <div class="feat-card-header" style="background:linear-gradient(135deg,#0891b2,#0e7490);">
+        <i data-lucide="briefcase"></i>
+      </div>
+      <div class="feat-card-body">
+        <p class="feat-card-tag">March 2026 &middot; ESG Consulting</p>
+        <h3 class="feat-card-title">TCS ESG Job Simulation</h3>
+        <p class="feat-card-desc">Analysed corporate sustainability challenges across 4+ modules and developed a fitment matrix with strategic ESG recommendations.</p>
+      </div>
     </a>
 
-    <nav class="nav" aria-label="Primary">
-      <a href="#projects">Projects</a>
-      <a href="#blog">Blog</a>
-      <a href="#skills">Skills</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-  </header>
-
-  <main id="home">
-    <section class="hero section-shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Recruiter-friendly portfolio for climate science and policy</p>
-        <h1>Turning climate research, spatial analysis, and policy curiosity into clear impact.</h1>
-        <p class="lede">
-          I am a master's student in Climate Science and Policy with a geography background, experience in
-          research and field-based environmental studies, and a growing focus on climate solutions,
-          sustainability planning, and geospatial tools.
-        </p>
-
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore projects</a>
-          <a class="button button-secondary" href="#blog">Read the blog</a>
-          <a class="button button-secondary" href="resume.md" download>Download resume</a>
-        </div>
-
-        <div class="quick-facts" aria-label="Quick facts">
-          <article>
-            <strong>100+</strong>
-            <span>researchers engaged at the University of Delhi conference</span>
-          </article>
-          <article>
-            <strong>130+</strong>
-            <span>students reached through the TERI climate skills workshop</span>
-          </article>
-          <article>
-            <strong>3 days</strong>
-            <span>supporting the World Sustainable Development Summit</span>
-          </article>
-        </div>
+    <a href="projects.html" class="feat-card reveal reveal-d1" aria-label="BCG Climate Simulation project">
+      <div class="feat-card-header" style="background:linear-gradient(135deg,#7c3aed,#6d28d9);">
+        <i data-lucide="flame"></i>
       </div>
-
-      <aside class="hero-card reveal" aria-label="Profile summary">
-        <div class="profile-badge">Climate + GIS + Policy</div>
-        <div class="profile-portrait" aria-hidden="true">
-          <svg viewBox="0 0 420 420" role="img">
-            <defs>
-              <linearGradient id="portraitBg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#f3fff7" />
-                <stop offset="55%" stop-color="#dff3de" />
-                <stop offset="100%" stop-color="#a8cbb5" />
-              </linearGradient>
-              <linearGradient id="portraitAccent" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#1f6f5b" />
-                <stop offset="100%" stop-color="#f4b942" />
-              </linearGradient>
-            </defs>
-            <rect width="420" height="420" rx="42" fill="url(#portraitBg)" />
-            <path d="M43 287c47-46 88-48 136-33 42 14 83 6 130-18 27-14 50-12 68-2v86H43z" fill="#8ec0a6" opacity="0.35" />
-            <path d="M68 257c28-30 63-44 95-44 31 0 54 10 77 24 41 25 87 28 111 13" fill="none" stroke="#1f6f5b" stroke-width="10" stroke-linecap="round" opacity="0.55" />
-            <circle cx="138" cy="145" r="39" fill="url(#portraitAccent)" opacity="0.2" />
-            <path d="M126 165c-10-14-14-28-10-43 5-20 22-33 43-33 22 0 40 12 46 31 4 13 1 28-8 45" fill="#f3e5cb" stroke="#143d32" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M149 98c24 0 42 18 42 41" fill="none" stroke="#143d32" stroke-width="6" stroke-linecap="round"/>
-            <circle cx="155" cy="150" r="4.5" fill="#143d32" />
-            <circle cx="177" cy="150" r="4.5" fill="#143d32" />
-            <path d="M159 165c5 4 10 6 18 4" fill="none" stroke="#143d32" stroke-width="5" stroke-linecap="round" />
-            <path d="M107 106c12-10 34-21 57-21 32 0 48 12 61 29" fill="none" stroke="#143d32" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
-            <path d="M96 184c25-28 56-47 94-47 37 0 71 16 98 45" fill="none" stroke="#143d32" stroke-width="8" stroke-linecap="round" opacity="0.28"/>
-            <circle cx="298" cy="92" r="26" fill="#ffe066" opacity="0.75" />
-            <path d="M283 93h30M298 78v30" stroke="#143d32" stroke-width="5" stroke-linecap="round" />
-          </svg>
-        </div>
-
-        <div class="profile-grid">
-          <div>
-            <span>Current focus</span>
-            <strong>Climate Science and Policy</strong>
-          </div>
-          <div>
-            <span>Strengths</span>
-            <strong>Research, GIS, communication</strong>
-          </div>
-          <div>
-            <span>Location</span>
-            <strong>Delhi, India</strong>
-          </div>
-          <div>
-            <span>Open to</span>
-            <strong>Research, policy, analysis roles</strong>
-          </div>
-        </div>
-      </aside>
-    </section>
-
-    <section id="blog" class="section-shell spotlight-section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Blog and updates</p>
-        <h2>Latest writing, research notes, and project updates.</h2>
-        <p>Use this section to share climate science reflections, policy commentary, and progress from your academic work.</p>
+      <div class="feat-card-body">
+        <p class="feat-card-tag">March 2026 &middot; Carbon Analysis</p>
+        <h3 class="feat-card-title">BCG Climate Simulation</h3>
+        <p class="feat-card-desc">Conducted Scope 1, 2 &amp; 3 carbon emissions baseline analysis using Excel, benchmarked against CDP data for reporting accuracy.</p>
       </div>
-      <div class="blog-layout">
-        <article class="featured-post reveal">
-          <div class="post-meta">
-            <span class="pill">Featured</span>
-            <span>Climate policy</span>
-          </div>
-          <h3>Why local climate action needs better data, not just bigger promises</h3>
-          <p>
-            A note on how field observations, geospatial analysis, and evidence-driven policy can close the
-            gap between climate ambition and implementation.
-          </p>
-          <a href="#contact">Ask for the full post template</a>
-        </article>
-        <div class="blog-cards" id="blog-cards" aria-live="polite"></div>
-      </div>
-    </section>
+    </a>
 
-    <section id="projects" class="section-shell">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Projects and experience</p>
-        <h2>Representative work that shows research rigor, sustainability thinking, and applied analysis.</h2>
+    <a href="projects.html" class="feat-card reveal reveal-d2" aria-label="Flood Vulnerability Research project">
+      <div class="feat-card-header" style="background:linear-gradient(135deg,#1d4ed8,#1e40af);">
+        <i data-lucide="droplets"></i>
       </div>
-      <div class="cards-grid" id="projects-grid"></div>
-    </section>
+      <div class="feat-card-body">
+        <p class="feat-card-tag">2024&ndash;2025 &middot; Disaster Research</p>
+        <h3 class="feat-card-title">Flood Vulnerability Research</h3>
+        <p class="feat-card-desc">Assessed flood risk across 4&ndash;5 key indicators in Delhi, identifying critical gaps in preparedness and evacuation planning.</p>
+      </div>
+    </a>
 
-    <section id="skills" class="section-shell split-section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Skills at a glance</p>
-        <h2>A practical mix of climate, spatial, and communication skills.</h2>
-      </div>
-      <div class="skills-layout">
-        <div class="skills-card reveal">
-          <div class="skills-bars" id="skills-bars"></div>
-        </div>
-        <div class="skills-notes reveal">
-          <article>
-            <h3>Core strengths</h3>
-            <p>Research design, GIS and spatial data analysis, disaster risk assessment, environmental impact analysis, and effective communication.</p>
-          </article>
-          <article>
-            <h3>How to read this page</h3>
-            <p>This portfolio is intentionally structured for recruiters: summary, projects, skills, education, blog, and direct contact links are all reachable in one screen or two.</p>
-          </article>
+  </div>
+  <div class="view-all-wrap">
+    <a href="projects.html" class="btn btn-secondary reveal">
+      <i data-lucide="arrow-right"></i> See all 6 projects
+    </a>
+  </div>
+</section>
+
+<!-- ── Skills ─────────────────────────────────────────────────────────────── -->
+<section class="section" id="skills">
+  <p class="section-label">Skills</p>
+  <h2 class="section-title">What I bring</h2>
+  <p class="section-subtitle">
+    Five core competencies built through academic study, field work, and professional simulations—
+    each visualised below.
+  </p>
+
+  <!-- Shared gradient definition for all rings -->
+  <svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true">
+    <defs>
+      <linearGradient id="ringGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%"   stop-color="#1a4a30"/>
+        <stop offset="100%" stop-color="#c4952a"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <div class="skills-grid reveal" aria-label="Skills">
+
+    <div class="skill-ring-wrap">
+      <div class="ring-container" role="img" aria-label="GIS and Spatial Analysis, 92%">
+        <svg class="ring-svg" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-track" cx="60" cy="60" r="50"/>
+          <circle class="ring-fill"  cx="60" cy="60" r="50" data-value="92"/>
+        </svg>
+        <div class="ring-icon-overlay" aria-hidden="true">
+          <i data-lucide="map"></i>
+          <span class="ring-pct">92%</span>
         </div>
       </div>
-    </section>
+      <span class="skill-label">GIS and Spatial Analysis</span>
+    </div>
 
-    <section id="education" class="section-shell">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Education and certifications</p>
-        <h2>Academic training and field-ready certifications.</h2>
-      </div>
-      <div class="timeline reveal" id="education-timeline"></div>
-    </section>
-
-    <section id="contact" class="section-shell contact-section">
-      <div class="contact-card reveal">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Open to research, policy, sustainability, and climate-focused opportunities.</h2>
-          <p>If you are hiring for a role that combines data, climate analysis, policy, or communication, reach out directly.</p>
-        </div>
-        <div class="contact-links">
-          <a href="mailto:snehamishra5678@gmail.com">snehamishra5678@gmail.com</a>
-          <a href="https://www.linkedin.com/in/sneha-mishra-263131272" target="_blank" rel="noreferrer">LinkedIn profile</a>
-          <a href="resume.md" download>Resume markdown</a>
+    <div class="skill-ring-wrap">
+      <div class="ring-container" role="img" aria-label="Communication, 90%">
+        <svg class="ring-svg" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-track" cx="60" cy="60" r="50"/>
+          <circle class="ring-fill"  cx="60" cy="60" r="50" data-value="90"/>
+        </svg>
+        <div class="ring-icon-overlay" aria-hidden="true">
+          <i data-lucide="message-circle"></i>
+          <span class="ring-pct">90%</span>
         </div>
       </div>
-    </section>
-  </main>
+      <span class="skill-label">Communication</span>
+    </div>
 
-  <footer class="footer section-shell">
-    <p>Built for GitHub Pages. Climate science and policy portfolio, designed for easy updates.</p>
-  </footer>
-
-  <template id="project-template">
-    <article class="project-card">
-      <div class="card-icon" aria-hidden="true"></div>
-      <div class="card-body">
-        <div class="card-meta"></div>
-        <h3></h3>
-        <p></p>
-        <ul></ul>
+    <div class="skill-ring-wrap">
+      <div class="ring-container" role="img" aria-label="Research Design, 88%">
+        <svg class="ring-svg" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-track" cx="60" cy="60" r="50"/>
+          <circle class="ring-fill"  cx="60" cy="60" r="50" data-value="88"/>
+        </svg>
+        <div class="ring-icon-overlay" aria-hidden="true">
+          <i data-lucide="microscope"></i>
+          <span class="ring-pct">88%</span>
+        </div>
       </div>
-    </article>
-  </template>
+      <span class="skill-label">Research Design</span>
+    </div>
 
-  <template id="blog-template">
-    <article class="mini-post">
-      <div class="mini-meta"></div>
-      <h3></h3>
-      <p></p>
-    </article>
-  </template>
+    <div class="skill-ring-wrap">
+      <div class="ring-container" role="img" aria-label="Disaster Risk Assessment, 85%">
+        <svg class="ring-svg" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-track" cx="60" cy="60" r="50"/>
+          <circle class="ring-fill"  cx="60" cy="60" r="50" data-value="85"/>
+        </svg>
+        <div class="ring-icon-overlay" aria-hidden="true">
+          <i data-lucide="shield-alert"></i>
+          <span class="ring-pct">85%</span>
+        </div>
+      </div>
+      <span class="skill-label">Disaster Risk Assessment</span>
+    </div>
 
-  <template id="timeline-template">
-    <article class="timeline-item">
-      <div class="timeline-marker" aria-hidden="true"></div>
+    <div class="skill-ring-wrap">
+      <div class="ring-container" role="img" aria-label="Environmental Impact Analysis, 84%">
+        <svg class="ring-svg" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="ring-track" cx="60" cy="60" r="50"/>
+          <circle class="ring-fill"  cx="60" cy="60" r="50" data-value="84"/>
+        </svg>
+        <div class="ring-icon-overlay" aria-hidden="true">
+          <i data-lucide="leaf"></i>
+          <span class="ring-pct">84%</span>
+        </div>
+      </div>
+      <span class="skill-label">Environmental Impact Analysis</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Education & Certifications ────────────────────────────────────────── -->
+<section class="section" id="education">
+  <p class="section-label">Education</p>
+  <h2 class="section-title">Academic foundation</h2>
+  <p class="section-subtitle">
+    Degrees in climate science and geography, supplemented by hands-on field certifications.
+  </p>
+
+  <div class="timeline">
+
+    <div class="tl-item reveal">
+      <div class="tl-marker"></div>
       <div>
-        <span class="timeline-date"></span>
-        <h3></h3>
-        <p></p>
+        <span class="tl-date">
+          <i data-lucide="calendar"></i> 2025 &ndash; 2027
+        </span>
+        <h3 class="tl-title">M.Sc. Climate Science and Policy</h3>
+        <p class="tl-inst">TERI School of Advanced Studies, University of Delhi</p>
+        <p class="tl-desc">Advanced study in climate solutions, sustainability planning, policy development, and geospatial tools for environmental analysis.</p>
       </div>
-    </article>
-  </template>
+    </div>
 
-  <script src="script.js"></script>
+    <div class="tl-item reveal reveal-d1">
+      <div class="tl-marker"></div>
+      <div>
+        <span class="tl-date">
+          <i data-lucide="calendar"></i> 2022 &ndash; 2025
+        </span>
+        <h3 class="tl-title">B.A. Geography</h3>
+        <p class="tl-inst">University of Delhi</p>
+        <p class="tl-desc">Foundation in physical and human geography, spatial thinking, climate science, and field-based environmental research.</p>
+      </div>
+    </div>
+
+    <div class="tl-item cert reveal reveal-d2">
+      <div class="tl-marker"></div>
+      <div>
+        <span class="tl-date">
+          <i data-lucide="award"></i> February 2025
+        </span>
+        <h3 class="tl-title">Soil Testing &amp; Water Analysis Certificate</h3>
+        <p class="tl-inst">University of Delhi &mdash; 15-day field course</p>
+        <p class="tl-desc">Hands-on soil parameter testing, pH analysis, and water quality assessment to support sustainable agricultural practices.</p>
+      </div>
+    </div>
+
+    <div class="tl-item cert reveal reveal-d3">
+      <div class="tl-marker"></div>
+      <div>
+        <span class="tl-date">
+          <i data-lucide="award"></i> April 2024
+        </span>
+        <h3 class="tl-title">Satellite Image Processing Certificate</h3>
+        <p class="tl-inst">University of Delhi &mdash; 15-day intensive</p>
+        <p class="tl-desc">Applied QGIS and ArcGIS for spatial data processing, thematic mapping, satellite image interpretation, and dataset visualisation.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Contact ────────────────────────────────────────────────────────────── -->
+<section class="contact-section" id="contact">
+  <div class="contact-inner">
+    <div>
+      <p class="section-label contact-label">Contact</p>
+      <h2 class="contact-title">Open to climate, sustainability, and policy roles.</h2>
+      <p class="contact-sub">
+        Reach out if you are hiring for research, GIS analysis, policy advisory,
+        or sustainability consulting roles.
+      </p>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:snehamishra5678@gmail.com" class="contact-link reveal">
+        <i data-lucide="mail"></i> snehamishra5678@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/sneha-mishra-263131272" target="_blank" rel="noreferrer" class="contact-link reveal reveal-d1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:8px;">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5V24H0zM8 8h4.79v2.16h.07c.66-1.24 2.28-2.54 4.69-2.54 5.02 0 5.95 3.31 5.95 7.62V24h-5V16.4c0-1.83-.03-4.18-2.55-4.18-2.55 0-2.94 1.99-2.94 4.05V24H8z" />
+        </svg>
+        linkedin.com/in/sneha-mishra-263131272
+      </a>
+      <a href="SNEHA_MISHRA.pdf" class="contact-link reveal reveal-d2" target="_blank" rel="noreferrer">
+        <i data-lucide="file-text"></i> View resume
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Sneha Mishra &mdash; Climate Science &amp; Policy &mdash; Delhi, India &mdash;
+     <a href="mailto:snehamishra5678@gmail.com">snehamishra5678@gmail.com</a></p>
+</footer>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
